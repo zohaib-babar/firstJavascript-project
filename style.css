@@ -9,11 +9,7 @@ h1 {
     text-align: center;
     line-height: 5rem;
 }
-@media only screen and (max-width: 767px) {
-  .game-container {
-    width: 95%;
-    padding: 15px;
-}
+
 .choice {
     height: 165px;
     width: 165px;
@@ -32,11 +28,7 @@ img {
     object-fit: cover;
     border-radius: 50%;
 }
-@media only screen and (min-width: 768px) {
-  .game-container {
-    width: 60%;
-    padding: 25px;
-}
+
 .choices {
     display: flex;
     justify-content: center;
